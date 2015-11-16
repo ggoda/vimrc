@@ -52,11 +52,12 @@ set smarttab
 set number
 set showcmd
 colorscheme gruvbox
-"set mouse=a
+set mouse=a
 "Folding 
 set foldenable
 set foldnestmax=10
 set foldlevelstart=10
 set foldmethod=indent
 set foldlevel=0
-
+"Background fix
+set background=dark
