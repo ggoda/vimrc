@@ -39,27 +39,41 @@ Plugin 'kchmck/vim-coffee-script'
 
 " ----- I like colors------------------------------------------------
 Plugin 'morhetz/gruvbox'
+
+Plugin 'lyuts/vim-rtags'
 call vundle#end()
 
 filetype plugin indent on
 
-"Tab settings
+if &term =~ '256color'
+    set t_ut=
+endif
 
+"Mappings
+let mapleader=" "
+
+"Tab settings
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab 
 set smarttab
+
 "Ui
 set number
 set showcmd
 colorscheme gruvbox
 set mouse=a
+
 "Folding 
 set foldenable
 set foldnestmax=10
 set foldlevelstart=10
 set foldmethod=indent
 set foldlevel=0
-"Background fix
+
+"Background 
 set background=dark
+
+set ignorecase
+set smartcase
