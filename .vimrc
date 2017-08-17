@@ -37,6 +37,8 @@ Plugin 'jez/vim-c0'
 Plugin 'jez/vim-ispc'
 Plugin 'kchmck/vim-coffee-script'
 
+" ----- I like colors------------------------------------------------
+Plugin 'morhetz/gruvbox'
 call vundle#end()
 
 filetype plugin indent on
